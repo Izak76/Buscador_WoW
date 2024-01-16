@@ -1,6 +1,6 @@
 # Buscador WoW
 
-Buscador de palavras para o jogo <ins>Word of Wonders</ins>. A aplicação funciona buscando em um dicionário todas as palavras que podem ser formadas com as letras inseridas. Novos dicionários podem ser adicionados e serem alternados no menu configurações (vide [nota sobre os dicionários](#nota-importante-sobre-os-dicionários)).
+Buscador de palavras para o jogo <ins>Words of Wonders</ins>. A aplicação funciona buscando em um dicionário todas as palavras que podem ser formadas com as letras inseridas. Novos dicionários podem ser adicionados e serem alternados no menu configurações (vide [nota sobre os dicionários](#nota-importante-sobre-os-dicionários)).
 
 ## Instruções
 Ao abrir o programa, insira no campo "Letras das palavras a serem buscadas" todas as letras que aparecem no momento do jogo, e então clique em "buscar". Após isso, uma lista com todas as palavras que podem ser formadas com as letras que foram inseridas serão exibidas no campo abaixo.
