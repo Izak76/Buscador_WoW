@@ -6,7 +6,7 @@ import buscadorWoW.Interfaces.InterfaceFabrica;
 
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         String[] looks = {"Windows", "Nimbus", "Metal"};
 
         try {

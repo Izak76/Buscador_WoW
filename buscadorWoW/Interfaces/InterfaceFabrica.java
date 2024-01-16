@@ -8,7 +8,7 @@ public class InterfaceFabrica {
         return new Interface(fachada);
     }
 
-    public static JFrame getInterface() throws Exception {
+    public static JFrame getInterface() {
         return getInterface(Fachada.getInstancia());
     }
 
@@ -16,7 +16,7 @@ public class InterfaceFabrica {
         return new ConfigInterface(fachada);
     }
 
-    public static JFrame getConfigInterface() throws Exception {
+    public static JFrame getConfigInterface() {
         return getConfigInterface(Fachada.getInstancia());
     }
 }

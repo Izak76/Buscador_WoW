@@ -117,6 +117,10 @@ class Interface extends javax.swing.JFrame {
     }//GEN-LAST:event_botaoBuscarMouseClicked
 
     private void letrasEntradaKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_letrasEntradaKeyReleased
+        if (evt.getKeyCode() == 10)
+            for (java.awt.event.MouseListener ml: botaoBuscar.getMouseListeners())
+                ml.mouseClicked(null);
+        
         String texto = letrasEntrada.getText();
         char[] resultado = new char[texto.length()];
         int resIndex = 0;//, posCursor = letrasEntrada.getCaretPosition();
