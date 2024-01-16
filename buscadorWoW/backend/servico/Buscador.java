@@ -71,7 +71,7 @@ public class Buscador {
                 if (a.length() != b.length())
                     return Integer.compare(a.length(), b.length());
                 else
-                    return a.compareTo(b);
+                    return a.toLowerCase().compareTo(b.toLowerCase());
             }
         });
         
