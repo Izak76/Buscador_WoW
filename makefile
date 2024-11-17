@@ -11,6 +11,9 @@ endif
 
 all: create-jar $(CLEAN)
 
+run:
+	@java buscadorWoW/App
+
 create-jar:
 	javac -d build -encoding utf-8 $(SRC_PATH)/$(APP_NAME).java
 	cd build && \

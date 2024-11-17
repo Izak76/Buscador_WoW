@@ -5,6 +5,7 @@ import java.util.List;
 
 import buscadorWoW.backend.servico.Buscador;
 import buscadorWoW.backend.servico.Configuracoes;
+import buscadorWoW.backend.servico.Filtro;
 
 public class Fachada {
     private static Fachada instancia;
@@ -29,6 +30,10 @@ public class Fachada {
 
     public List<String> buscarTermos(String entrada) throws CharConversionException {
         return buscador.buscarPalavras(entrada);
+    }
+    
+    public List<String> filtrarTermos(String filtro, List<String> termos) {
+        return Filtro.filtrarTermos(filtro, termos);
     }
 
     public void setArquivoDicionario(String arquivoDicionario) {
